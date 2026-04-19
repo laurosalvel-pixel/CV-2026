@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-background text-text-primary font-sans antialiased overflow-y-scroll;
+  }
+}
+
+@layer components {
+  /* Metrics */
+  .metric-block {
+    @apply bg-[#F5F5F5] rounded-lg p-3.5 flex flex-col justify-between h-[84px];
+  }
+
+  /* Tags */
+  .tag {
+    @apply bg-[#F3F3F3] rounded-full px-2.5 py-1.5 text-[12px] text-[#444] font-medium leading-[1.2] whitespace-nowrap;
+  }
+
+  /* Expandable content area */
+  .expanded-content-panel {
+    @apply bg-[#F5F5F5] rounded-lg p-[14px] mt-2.5 text-text-secondary;
+  }
+}
