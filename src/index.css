@@ -26,3 +26,30 @@
     @apply bg-[#F5F5F5] rounded-lg p-[14px] mt-2.5 text-text-secondary;
   }
 }
+
+@media print {
+  @page {
+    margin: 2cm 1.5cm;
+    size: A4 portrait;
+  }
+  body, html {
+    background: white !important;
+    color: black !important;
+    margin: 0;
+    padding: 0;
+  }
+  .cv-print-container {
+    background: white !important;
+    max-w: none !important;
+    width: 100% !important;
+  }
+  /* Prevent awkward tearing across standard A4 pages */
+  .avoid-page-break {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  /* Strip out unnecessary UI artifacts or scrollbars that may bleed into the print view */
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}

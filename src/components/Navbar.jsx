@@ -9,8 +9,8 @@ export default function Navbar({ activeView, setActiveView }) {
     ];
 
     return (
-        <div className="fixed top-6 left-1/2 -translate-x-1/2 z-[100]">
-            <nav className="flex items-center p-1.5 gap-1.5 bg-white/70 backdrop-blur-md rounded-full shadow-[0_4px_24px_rgba(0,0,0,0.06)] border border-[#E5E5E5]/50">
+        <div className="fixed top-6 left-0 right-0 z-[100] px-6 sm:px-10 pointer-events-none flex justify-center">
+            <nav className="pointer-events-auto flex items-center p-1.5 gap-1.5 bg-white/70 backdrop-blur-md rounded-full shadow-[0_4px_24px_rgba(0,0,0,0.06)] border border-[#E5E5E5]/50">
                 {navItems.map((item) => {
                     const isActive = activeView === item.id;
                     return (
@@ -54,6 +54,29 @@ export default function Navbar({ activeView, setActiveView }) {
                     );
                 })}
             </nav>
+            <div className="pointer-events-auto absolute right-6 sm:right-10 top-1/2 -translate-y-1/2 flex items-center p-1 bg-white/70 backdrop-blur-md rounded-full shadow-[0_4px_24px_rgba(0,0,0,0.06)] border border-[#E5E5E5]/50">
+                <a 
+                    href="/cv-pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-1.5 px-4 py-1.5 rounded-full text-[13px] font-medium text-[#555] hover:bg-white hover:text-[#111] hover:shadow-sm transition-all duration-300 group"
+                    title="Print CV"
+                >
+                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="opacity-80 group-hover:opacity-100"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                    <span className="hidden sm:block">CV PDF</span>
+                </a>
+                <div className="w-[1px] h-3.5 bg-[#D4D4D4] hidden sm:block"></div>
+                <a 
+                    href="/LauroSalvel_Diplomas_2026.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-1.5 px-4 py-1.5 rounded-full text-[13px] font-medium text-[#555] hover:bg-white hover:text-[#111] hover:shadow-sm transition-all duration-300 group"
+                    title="View Diplomas"
+                >
+                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="opacity-80 group-hover:opacity-100"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                    <span className="hidden sm:block">Diplomas</span>
+                </a>
+            </div>
         </div>
     );
 }
