@@ -81,7 +81,7 @@ export default function Timeline() {
       {/* Floating Time Toggle Button */}
       <button
         onClick={() => setShowProportional(!showProportional)}
-        className="fixed bottom-8 left-8 z-[100] p-3.5 bg-white border border-[#E5E5E5] rounded-full shadow-md hover:scale-105 transition-all text-[#111] flex items-center justify-center"
+        className="fixed bottom-8 left-8 z-[100] p-3.5 bg-white border border-[#E5E5E5] rounded-full shadow-md hover:scale-105 transition-all text-[#111] hidden sm:flex items-center justify-center"
         title="Toggle Proportional Timeline"
       >
         <Icon icon="lucide:clock" width="22" height="22" />

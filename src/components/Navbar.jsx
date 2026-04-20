@@ -9,8 +9,8 @@ export default function Navbar({ activeView, setActiveView }) {
     ];
 
     return (
-        <div className="fixed top-6 left-0 right-0 z-[100] px-6 sm:px-10 pointer-events-none flex justify-center">
-            <nav className="pointer-events-auto flex items-center p-1.5 gap-1.5 bg-white/70 backdrop-blur-md rounded-full shadow-[0_4px_24px_rgba(0,0,0,0.06)] border border-[#E5E5E5]/50">
+        <div className="fixed top-6 left-0 right-0 z-[100] px-4 sm:px-10 pointer-events-none flex flex-col sm:block justify-center items-center gap-3">
+            <nav className="pointer-events-auto flex items-center p-1.5 gap-1 sm:gap-1.5 bg-white/70 backdrop-blur-md rounded-full shadow-[0_4px_24px_rgba(0,0,0,0.06)] border border-[#E5E5E5]/50 mx-auto w-max">
                 {navItems.map((item) => {
                     const isActive = activeView === item.id;
                     return (
@@ -54,7 +54,7 @@ export default function Navbar({ activeView, setActiveView }) {
                     );
                 })}
             </nav>
-            <div className="pointer-events-auto absolute right-6 sm:right-10 top-1/2 -translate-y-1/2 flex items-center p-1 bg-white/70 backdrop-blur-md rounded-full shadow-[0_4px_24px_rgba(0,0,0,0.06)] border border-[#E5E5E5]/50">
+            <div className="pointer-events-auto sm:absolute sm:right-10 sm:top-1/2 sm:-translate-y-1/2 flex items-center p-1 bg-white/70 backdrop-blur-md rounded-full shadow-[0_4px_24px_rgba(0,0,0,0.06)] border border-[#E5E5E5]/50 mx-auto w-max">
                 <a 
                     href="/cv-pdf"
                     target="_blank"

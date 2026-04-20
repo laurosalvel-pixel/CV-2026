@@ -12,7 +12,7 @@ export default function Hero() {
                     width="100%" 
                     height="100%"
                     title="Interactive Spline 3D Glassmorphism Background"
-                    className="w-full h-full object-cover pointer-events-auto scale-[1.4] origin-center"
+                    className="w-full h-full object-cover pointer-events-none sm:pointer-events-auto scale-[1.4] origin-center"
                 />
             </div>
             

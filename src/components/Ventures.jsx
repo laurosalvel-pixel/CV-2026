@@ -11,19 +11,19 @@ const VentureCard = ({ venture }) => {
     const [isFlipped, setIsFlipped] = useState(false);
 
     return (
-        <div className="relative w-full min-h-[500px] sm:min-h-[600px] [perspective:2000px] mb-16 sm:mb-24 last:mb-0">
+        <div className="relative w-full min-h-[620px] sm:min-h-[600px] [perspective:2000px] mb-16 sm:mb-24 last:mb-0">
             <motion.div
                 initial={false}
                 animate={{ rotateY: isFlipped ? 180 : 0 }}
                 transition={{ duration: 0.8, type: "spring", bounce: 0.3 }}
-                style={{ transformStyle: 'preserve-3d' }}
-                className="w-full h-full relative min-h-[500px] sm:min-h-[600px] rounded-[24px] sm:rounded-[32px] cursor-pointer shadow-[0_24px_60px_rgba(0,0,0,0.1)] border border-[#E5E5E5]/50 group"
+                style={{ transformStyle: 'preserve-3d', WebkitTransformStyle: 'preserve-3d' }}
+                className="w-full h-full relative min-h-[620px] sm:min-h-[600px] rounded-[24px] sm:rounded-[32px] cursor-pointer shadow-[0_24px_60px_rgba(0,0,0,0.1)] border border-[#E5E5E5]/50 group"
                 onClick={() => setIsFlipped(!isFlipped)}
             >
                 {/* --- FRONT PANEL --- */}
                 <div 
-                    style={{ backfaceVisibility: 'hidden' }}
-                    className={`absolute inset-0 w-full h-full rounded-[24px] sm:rounded-[32px] overflow-hidden bg-[#111] flex flex-col justify-end ${isFlipped ? 'pointer-events-none' : 'pointer-events-auto'}`}
+                    style={{ backfaceVisibility: 'hidden', WebkitBackfaceVisibility: 'hidden', backgroundColor: '#111' }}
+                    className={`absolute inset-0 w-full h-full rounded-[24px] sm:rounded-[32px] overflow-hidden flex flex-col justify-end ${isFlipped ? 'pointer-events-none' : 'pointer-events-auto'}`}
                 >
                     {/* Background Image Layer */}
                     <div className="absolute inset-0 w-full h-full z-0">
@@ -60,15 +60,15 @@ const VentureCard = ({ venture }) => {
 
                             {/* Logo or Title */}
                             {venture.logo ? (
-                                <img src={venture.logo} alt={`${venture.title} Logo`} className={`${venture.logoClass || 'h-[40px] sm:h-[48px]'} w-auto object-contain mb-6 sm:mb-8 drop-shadow-lg`} />
+                                <img src={venture.logo} alt={`${venture.title} Logo`} className={`${venture.logoClass || 'h-[36px] sm:h-[48px]'} w-auto object-contain mb-5 sm:mb-8 drop-shadow-lg`} />
                             ) : (
-                                <h2 className="text-[36px] sm:text-[40px] font-[800] text-white tracking-tight leading-none mb-6 sm:mb-8 drop-shadow-lg">
+                                <h2 className="text-[32px] sm:text-[40px] font-[800] text-white tracking-tight leading-none mb-5 sm:mb-8 drop-shadow-lg">
                                     {venture.title}
                                 </h2>
                             )}
 
                             {/* Two-Column Information Layout */}
-                            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mb-8 sm:mb-10">
+                            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8 mb-6 sm:mb-10">
                                 <div>
                                     <h4 className="text-white/40 text-[11px] font-bold uppercase tracking-widest mb-3 flex items-center gap-2">
                                         <Icon icon="lucide:info" className="text-[13px]" /> About
@@ -90,9 +90,9 @@ const VentureCard = ({ venture }) => {
                             {/* Roles Stack */}
                             <div className="flex flex-col gap-3">
                                 <span className="text-white/40 text-[11px] font-bold uppercase tracking-[0.2em]">ROLES:</span>
-                                <div className="flex flex-wrap items-center gap-3">
+                                <div className="flex flex-wrap items-center gap-2 sm:gap-3">
                                     {venture.roles.map((role, idx) => (
-                                        <div key={idx} className="px-5 py-2 rounded-full bg-white/10 backdrop-blur-md border border-white/10 text-white text-[13px] font-semibold tracking-wide shadow-sm">
+                                        <div key={idx} className="px-3 py-1.5 sm:px-5 sm:py-2 rounded-full bg-white/10 backdrop-blur-md border border-white/10 text-white text-[12px] sm:text-[13px] font-semibold tracking-wide shadow-sm">
                                             {role}
                                         </div>
                                     ))}
@@ -104,7 +104,7 @@ const VentureCard = ({ venture }) => {
 
                 {/* --- BACK PANEL --- */}
                 <div 
-                    style={{ backfaceVisibility: 'hidden', transform: 'rotateY(180deg)' }}
+                    style={{ backfaceVisibility: 'hidden', WebkitBackfaceVisibility: 'hidden', transform: 'rotateY(180deg)' }}
                     className={`absolute inset-0 w-full h-full rounded-[24px] sm:rounded-[32px] bg-[#fafafa] flex flex-col p-6 sm:p-12 ${isFlipped ? 'pointer-events-auto' : 'pointer-events-none'}`}
                 >
                     {/* Scrollable Content Container */}
