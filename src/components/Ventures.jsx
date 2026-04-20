@@ -22,11 +22,11 @@ const VentureCard = ({ venture }) => {
             >
                 {/* --- FRONT PANEL --- */}
                 <div 
-                    style={{ backfaceVisibility: 'hidden', WebkitBackfaceVisibility: 'hidden', backgroundColor: '#111' }}
+                    style={{ backfaceVisibility: 'hidden', WebkitBackfaceVisibility: 'hidden', backgroundColor: '#111', transform: 'translateZ(1px)' }}
                     className={`absolute inset-0 w-full h-full rounded-[24px] sm:rounded-[32px] overflow-hidden flex flex-col justify-end ${isFlipped ? 'pointer-events-none' : 'pointer-events-auto'}`}
                 >
                     {/* Background Image Layer */}
-                    <div className="absolute inset-0 w-full h-full z-0">
+                    <div className="absolute inset-0 w-full h-full z-0" style={{ backfaceVisibility: 'hidden', WebkitBackfaceVisibility: 'hidden' }}>
                         <img 
                             src={venture.image} 
                             alt={venture.title} 
@@ -37,7 +37,7 @@ const VentureCard = ({ venture }) => {
                     </div>
 
                     {/* Top Context Bar: Status Pill & Flip Affordance */}
-                    <div className="absolute top-6 left-6 sm:top-8 sm:left-8 z-20 flex items-center gap-3">
+                    <div className="absolute top-6 left-6 sm:top-8 sm:left-8 z-20 flex items-center gap-3" style={{ backfaceVisibility: 'hidden', WebkitBackfaceVisibility: 'hidden' }}>
                         {venture.status && (
                             <div className="flex items-center gap-3 px-5 py-2.5 rounded-full bg-white/20 backdrop-blur-md border border-white/30 shadow-sm max-w-full">
                                 {venture.status === 'Archived' ? (
@@ -51,7 +51,7 @@ const VentureCard = ({ venture }) => {
                     </div>
 
                     {/* Foreground Content HUD */}
-                    <div className="relative z-10 w-full p-6 sm:p-12 md:p-16 flex flex-col justify-end">
+                    <div className="relative z-10 w-full p-6 sm:p-12 md:p-16 flex flex-col justify-end" style={{ backfaceVisibility: 'hidden', WebkitBackfaceVisibility: 'hidden' }}>
                         <div className="max-w-[700px]">
                             {/* Subtitle Metadata */}
                             <h3 className="text-[#A3A3A3] text-[12px] font-semibold uppercase tracking-widest mb-4 sm:mb-6 leading-relaxed">
@@ -92,7 +92,7 @@ const VentureCard = ({ venture }) => {
                                 <span className="text-white/40 text-[11px] font-bold uppercase tracking-[0.2em]">ROLES:</span>
                                 <div className="flex flex-wrap items-center gap-2 sm:gap-3">
                                     {venture.roles.map((role, idx) => (
-                                        <div key={idx} className="px-3 py-1.5 sm:px-5 sm:py-2 rounded-full bg-white/10 backdrop-blur-md border border-white/10 text-white text-[12px] sm:text-[13px] font-semibold tracking-wide shadow-sm">
+                                        <div key={idx} className="px-3 py-1.5 sm:px-5 sm:py-2 rounded-full bg-white/10 backdrop-blur-md border border-white/10 text-white text-[12px] sm:text-[13px] font-semibold tracking-wide shadow-sm" style={{ backfaceVisibility: 'hidden', WebkitBackfaceVisibility: 'hidden' }}>
                                             {role}
                                         </div>
                                     ))}
@@ -104,7 +104,7 @@ const VentureCard = ({ venture }) => {
 
                 {/* --- BACK PANEL --- */}
                 <div 
-                    style={{ backfaceVisibility: 'hidden', WebkitBackfaceVisibility: 'hidden', transform: 'rotateY(180deg)' }}
+                    style={{ backfaceVisibility: 'hidden', WebkitBackfaceVisibility: 'hidden', transform: 'rotateY(180deg) translateZ(1px)' }}
                     className={`absolute inset-0 w-full h-full rounded-[24px] sm:rounded-[32px] bg-[#fafafa] flex flex-col p-6 sm:p-12 ${isFlipped ? 'pointer-events-auto' : 'pointer-events-none'}`}
                 >
                     {/* Scrollable Content Container */}
