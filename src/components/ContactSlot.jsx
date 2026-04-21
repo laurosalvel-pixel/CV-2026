@@ -110,7 +110,7 @@ export default function ContactSlot({ showProportional, isActive, onVisible, onH
             </h2>
 
             {/* Interactive Fanning Buttons */}
-            <div className="flex items-center relative z-20 h-[52px]">
+            <div className="flex flex-wrap items-center relative z-20 min-h-[52px] gap-y-3 pb-2">
                 <button
                     onClick={() => setShowContact(!showContact)}
                     className="group relative flex items-center gap-2 px-6 h-[48px] bg-[#111] rounded-full text-[14px] font-[600] text-white overflow-hidden shadow-[0_4px_14px_rgba(0,0,0,0.15)] hover:shadow-[0_6px_20px_rgba(0,0,0,0.2)] transition-all duration-300 shrink-0 z-30"
@@ -125,7 +125,7 @@ export default function ContactSlot({ showProportional, isActive, onVisible, onH
                     </span>
                 </button>
 
-                <div className="flex items-center z-10">
+                <div className="flex flex-wrap items-center z-10 gap-y-3">
                     <AnimatePresence>
                         {showContact && buttons.map((btn, idx) => (
                             <motion.a
