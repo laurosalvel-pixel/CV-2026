@@ -61,7 +61,7 @@ export default function CvPdf() {
                         <div className="flex flex-wrap gap-x-4 gap-y-1 text-[13px] font-medium text-gray-500">
                             <span>Phone: +41 79 915 89 49</span>
                             <span>•</span>
-                            <span>Email: contact@laurosalvel.ch</span>
+                            <span>Email: lauro.salvel@gmail.com</span>
                             <span>•</span>
                             <span>LinkedIn: linkedin.com/in/lauro-salvel-330532195</span>
                         </div>

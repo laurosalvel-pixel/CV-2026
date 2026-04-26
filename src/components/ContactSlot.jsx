@@ -64,7 +64,7 @@ export default function ContactSlot({ showProportional, isActive, onVisible, onH
     }, []);
 
     const buttons = [
-        { label: 'contact@laurosalvel.ch', icon: 'lucide:mail', href: 'mailto:contact@laurosalvel.ch', w: 236 },
+        { label: 'lauro.salvel@gmail.com', icon: 'lucide:mail', href: 'mailto:lauro.salvel@gmail.com', w: 236 },
         { label: '+41 79 915 89 49', icon: 'lucide:phone', href: 'tel:+41799158949', w: 196 },
         { label: 'WhatsApp', icon: 'lucide:message-circle', href: 'https://wa.me/41799158949', w: 140 },
         { label: 'LinkedIn', icon: 'lucide:linkedin', href: 'https://linkedin.com/in/laurosalvel', w: 136 }

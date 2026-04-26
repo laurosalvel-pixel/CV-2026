@@ -13,8 +13,8 @@ export default function Footer({ className = "" }) {
             </div>
             
             <div className="flex flex-col sm:flex-row flex-wrap justify-center items-center gap-3 w-full">
-                <a href="mailto:contact@laurosalvel.ch" className="flex items-center gap-2 px-6 py-3.5 bg-[#111] text-white rounded-full text-[14px] font-bold hover:bg-[#333] transition-colors w-full sm:w-auto justify-center shadow-md hover:shadow-lg">
-                    <Icon icon="lucide:mail" className="text-[16px]"/> contact@laurosalvel.ch
+                <a href="mailto:lauro.salvel@gmail.com" className="flex items-center gap-2 px-6 py-3.5 bg-[#111] text-white rounded-full text-[14px] font-bold hover:bg-[#333] transition-colors w-full sm:w-auto justify-center shadow-md hover:shadow-lg">
+                    <Icon icon="lucide:mail" className="text-[16px]"/> lauro.salvel@gmail.com
                 </a>
                 <a href="tel:+41799158949" className="flex items-center gap-2 px-6 py-3.5 border border-[#EAEAEA] bg-white text-[#111] rounded-full text-[14px] font-bold hover:bg-gray-50 transition-colors w-full sm:w-auto justify-center">
                     <Icon icon="lucide:phone" className="text-[16px]"/> +41 79 915 89 49
