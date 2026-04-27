@@ -50,7 +50,7 @@ const digtSections = [
                 <div className="w-full bg-[#E6E6E6]/60 p-4 rounded-lg">
                     <h3 className="text-[13px] font-semibold text-black mb-2">Clients</h3>
                     <p className="text-[#555] text-[13px] leading-relaxed">
-                        Richemont Group, Decathlon Group, Zalando, HUGO BOSS AG, Oniverse, About You, Swarovski, Farfetch, Mammut, Gymshark
+                        ABOUT YOU, Baume & Mercier, Bucherer, Decathlon Group, DOUGLAS, Farfetch, Gymshark, HUGO BOSS AG, L'Occitane, Mammut, Oniverse, Richemont Group, Rituals, SCOTT, Swarovski, Zalando
                     </p>
                 </div>
             </div>
@@ -329,7 +329,7 @@ export const allRoles = [
         id: 'digt',
         isCurrent: true,
         date: "Feb 2024 – Now | 2y 1m",
-        title: "Sales Account Manager Advertising Sales",
+        title: "Account Manager Advertising Sales",
         company: "Digt AG | Fulltime, Hybrid, Zurich",
         tags: digtTags,
         sections: digtSections
