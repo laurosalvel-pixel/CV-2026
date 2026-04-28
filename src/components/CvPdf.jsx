@@ -16,7 +16,7 @@ export default function CvPdf() {
                 {/* Header */}
                 <header className="mb-6 border-b border-gray-300 pb-5">
                     <h1 className="text-3xl font-extrabold tracking-tight mb-1">Lauro Salvel</h1>
-                    <p className="text-[15px] text-gray-800 font-medium mb-2">Growth-focused Marketing & Advertising Manager building tools and brands with precision.</p>
+                    <p className="text-[15px] text-gray-800 font-medium mb-2">Building tools and brands with precision.</p>
                     
                     <div className="flex gap-4 text-[12px] font-medium text-gray-600">
                         <span>+41 79 915 89 49</span>
@@ -33,7 +33,7 @@ export default function CvPdf() {
                 <section className="mb-6">
                     <h2 className="text-sm font-bold uppercase tracking-widest text-gray-500 mb-2 border-b border-gray-200 pb-1">Professional Summary</h2>
                     <p className="text-gray-800 leading-relaxed text-justify">
-                        Dynamic Marketing & Sales Manager with a proven track record of driving commercial growth and building brand partnerships. Adept at consultative selling, campaign strategy, and performance marketing. Scaled advertising ecosystems and delivered over CHF 1.4M+ in sales and CHF 4.9M+ in incremental revenue through strategic client acquisition and retention. I combine creative content execution with data-driven decision-making to optimize customer acquisition costs and drive sustainable community growth.
+                        Marketing Manager with expertise in consultative selling, campaign strategy, and performance marketing. Experienced in managing advertising partnerships across closed community platforms, overseeing social media channels, and handling budget management. Proven ability to scale ecosystems, deliver incremental revenue, reduce CAC, and drive sustainable community growth through strategic campaign formats and hands-on creative work.
                     </p>
                 </section>
 
@@ -41,16 +41,16 @@ export default function CvPdf() {
                 <section className="mb-6">
                     <h2 className="text-sm font-bold uppercase tracking-widest text-gray-500 mb-2 border-b border-gray-200 pb-1">Skills</h2>
                     <div className="flex flex-wrap gap-x-2 gap-y-1 text-gray-800 font-medium">
+                        <span>Acquisition</span> <span className="text-gray-400">|</span>
                         <span>Consultative Selling</span> <span className="text-gray-400">|</span>
+                        <span>Presentations</span> <span className="text-gray-400">|</span>
+                        <span>Analytics</span> <span className="text-gray-400">|</span>
                         <span>Business Development</span> <span className="text-gray-400">|</span>
+                        <span>Content-Creation</span> <span className="text-gray-400">|</span>
                         <span>Campaign Strategy</span> <span className="text-gray-400">|</span>
-                        <span>Performance Marketing</span> <span className="text-gray-400">|</span>
-                        <span>Client Acquisition</span> <span className="text-gray-400">|</span>
-                        <span>Data Analysis</span> <span className="text-gray-400">|</span>
-                        <span>Brand Partnerships</span> <span className="text-gray-400">|</span>
-                        <span>Content Creation</span> <span className="text-gray-400">|</span>
-                        <span>Video Editing</span> <span className="text-gray-400">|</span>
-                        <span>Budget Oversight</span>
+                        <span>Marketing Formats</span> <span className="text-gray-400">|</span>
+                        <span>Budget-Oversight</span> <span className="text-gray-400">|</span>
+                        <span>Brand Identity</span>
                     </div>
                 </section>
 
@@ -63,16 +63,15 @@ export default function CvPdf() {
                         <div className="avoid-page-break">
                             <div className="flex justify-between items-baseline mb-1">
                                 <h3 className="text-[15px] font-bold text-black">Account Manager Advertising Sales</h3>
-                                <span className="font-semibold text-gray-600 text-[12px]">Feb 2024 – Present</span>
+                                <span className="font-semibold text-gray-600 text-[12px]">Feb 2024 – Now</span>
                             </div>
                             <div className="text-gray-600 font-medium text-[13px] mb-2">
-                                Digt AG | Zurich (Hybrid) | Fulltime
+                                Digt AG | Fulltime, Hybrid, Zurich
                             </div>
                             <ul className="list-disc pl-5 text-gray-800 leading-relaxed flex flex-col gap-1">
-                                <li>Built and scaled advertising partnerships across Fashion, Sports, Health, and Beauty sectors within closed-community platforms.</li>
-                                <li>Generated CHF 1.4M+ in sales and drove CHF 4.9M+ in incremental revenue through strategic campaign execution.</li>
-                                <li>Acquired and managed over 100 enterprise clients, including HUGO BOSS, Zalando, and Decathlon Group.</li>
-                                <li>Conducted 300+ consultative sales sessions, translating marketing insights into actionable commercial results.</li>
+                                <li>Responsible for advertising partnerships across Fashion, Sports, Health and Beauty on closed community platforms.</li>
+                                <li>Generated CHF 1.4M+ in Sales and 4.9M+ Incremental Revenue.</li>
+                                <li>Conducted 300+ Consultations and acquired 100+ Clients including ABOUT YOU, HUGO BOSS AG, and Zalando.</li>
                             </ul>
                         </div>
 
@@ -80,15 +79,15 @@ export default function CvPdf() {
                         <div className="avoid-page-break">
                             <div className="flex justify-between items-baseline mb-1">
                                 <h3 className="text-[15px] font-bold text-black">Marketing Manager</h3>
-                                <span className="font-semibold text-gray-600 text-[12px]">Aug 2023 – Dec 2023</span>
+                                <span className="font-semibold text-gray-600 text-[12px]">Aug 2023 – Dez 2023</span>
                             </div>
                             <div className="text-gray-600 font-medium text-[13px] mb-2">
-                                Velocity Switzerland | Zurich (Hybrid) | 60%
+                                Velocity Switzerland | 60%, Hybrid, Zurich
                             </div>
                             <ul className="list-disc pl-5 text-gray-800 leading-relaxed flex flex-col gap-1">
-                                <li>Led social media strategy across three locations, achieving a 20% increase in community growth.</li>
-                                <li>Developed and established 3 core content campaign formats to standardize and scale marketing output.</li>
-                                <li>Directed content creation and video editing initiatives, supporting 2 major community events to boost brand engagement.</li>
+                                <li>Managed all Social Media Channels and established community growth opportunities at three locations.</li>
+                                <li>Achieved +20% Community-Growth and supported 2 major events.</li>
+                                <li>Established 3 Campaign Formats through dedicated content strategy.</li>
                             </ul>
                         </div>
 
@@ -99,13 +98,12 @@ export default function CvPdf() {
                                 <span className="font-semibold text-gray-600 text-[12px]">Sep 2021 – Apr 2023</span>
                             </div>
                             <div className="text-gray-600 font-medium text-[13px] mb-2">
-                                MyBikePlan AG | Zurich | 80%
+                                MyBikePlan AG | 80%, Zurich
                             </div>
                             <ul className="list-disc pl-5 text-gray-800 leading-relaxed flex flex-col gap-1">
-                                <li>Managed a CHF 100k marketing budget across Meta, Google, and print media channels.</li>
-                                <li>Optimized performance marketing funnels, reducing Customer Acquisition Cost (CAC) by 20%.</li>
-                                <li>Developed and executed 10 custom campaign formats, driving a 40% increase in community growth.</li>
-                                <li>Progressed rapidly from Content Creator to Performance Marketing Specialist, culminating in the Junior Marketing Manager role.</li>
+                                <li>Managed main marketing channels including Meta, Google, and print media with 100k Budget responsibility.</li>
+                                <li>Combined strategic campaign planning with hands-on creative work to drive +40% Community-Growth.</li>
+                                <li>Developed 10 Campaign Formats and reduced CAC by -20%.</li>
                             </ul>
                         </div>
 
@@ -113,14 +111,15 @@ export default function CvPdf() {
                         <div className="avoid-page-break">
                             <div className="flex justify-between items-baseline mb-1">
                                 <h3 className="text-[15px] font-bold text-black">Early Experience</h3>
-                                <span className="font-semibold text-gray-600 text-[12px]">2016 – 2021</span>
+                                <span className="font-semibold text-gray-600 text-[12px]">Aug 2014 – Mar 2021</span>
                             </div>
                             <div className="text-gray-600 font-medium text-[13px] mb-2">
-                                Various Companies | Switzerland
+                                Freelancing & KOMMPAKT AG
                             </div>
                             <ul className="list-disc pl-5 text-gray-800 leading-relaxed flex flex-col gap-1">
-                                <li>Delivered brand identities and marketing assets for multiple clients as an independent designer, improving brand consistency and campaign execution.</li>
-                                <li>Completed an intensive Mediamatics apprenticeship, building a foundational skillset in project management, design, and digital media.</li>
+                                <li><strong>Graphic Design and Digital Content | Freelancing (Feb 2020 – Mar 2021)</strong>: Executed independent design contracts, delivering brand identities, digital assets, and marketing collateral.</li>
+                                <li><strong>Graphic Designer | KOMMPAKT AG (Aug 2018 – Jan 2019)</strong>: Took ownership of larger agency accounts and cross-media campaigns.</li>
+                                <li><strong>Graphic Design EFZ Apprentice | KOMMPAKT AG (Aug 2014 – Aug 2018)</strong>: Completed a 4-year Swiss Federal VET apprenticeship covering layout, color theory, print production, and digital design.</li>
                             </ul>
                         </div>
                     </div>
@@ -132,17 +131,38 @@ export default function CvPdf() {
                     <div className="flex flex-col gap-3">
                         <div>
                             <div className="flex justify-between items-baseline mb-1">
-                                <h3 className="text-[14px] font-bold text-black">Vocational Baccalaureate (Berufsmaturität) in Design & Art</h3>
-                                <span className="font-semibold text-gray-600 text-[12px]">2020 – 2021</span>
+                                <h3 className="text-[14px] font-bold text-black">BA of Science in Digital Business Management</h3>
+                                <span className="font-semibold text-gray-600 text-[12px]">Sep 2021 – Mar 2022</span>
                             </div>
-                            <div className="text-gray-800 text-[13px]">Berufsschule für Gestaltung Zürich (BfGZ)</div>
+                            <div className="text-gray-800 text-[13px]">Fachhochschule Graubünden</div>
                         </div>
                         <div>
                             <div className="flex justify-between items-baseline mb-1">
-                                <h3 className="text-[14px] font-bold text-black">Federal Diploma of Vocational Education and Training (EFZ) as Mediamatician</h3>
-                                <span className="font-semibold text-gray-600 text-[12px]">2016 – 2020</span>
+                                <h3 className="text-[14px] font-bold text-black">BMS Professional Maturity Certificate</h3>
+                                <span className="font-semibold text-gray-600 text-[12px]">Aug 2020 – Jun 2021</span>
                             </div>
-                            <div className="text-gray-800 text-[13px]">Berufsschule für Gestaltung Zürich (BfGZ)</div>
+                            <div className="text-gray-800 text-[13px]">Design & Arts | Final Grade: 5.3</div>
+                        </div>
+                        <div>
+                            <div className="flex justify-between items-baseline mb-1">
+                                <h3 className="text-[14px] font-bold text-black">European Bartender School Phuket</h3>
+                                <span className="font-semibold text-gray-600 text-[12px]">Nov 2019 – Dez 2019</span>
+                            </div>
+                            <div className="text-gray-800 text-[13px]">Travel & Course | Thailand</div>
+                        </div>
+                        <div>
+                            <div className="flex justify-between items-baseline mb-1">
+                                <h3 className="text-[14px] font-bold text-black">Preliminary design course</h3>
+                                <span className="font-semibold text-gray-600 text-[12px]">Aug 2013 – Jun 2014</span>
+                            </div>
+                            <div className="text-gray-800 text-[13px]">F+F Schule für Kunst und Mediendesign</div>
+                        </div>
+                        <div>
+                            <div className="flex justify-between items-baseline mb-1">
+                                <h3 className="text-[14px] font-bold text-black">Highschool Sek A1</h3>
+                                <span className="font-semibold text-gray-600 text-[12px]">2010 – 2013</span>
+                            </div>
+                            <div className="text-gray-800 text-[13px]">Zurich</div>
                         </div>
                     </div>
                 </section>
@@ -155,7 +175,7 @@ export default function CvPdf() {
                             <span className="font-bold text-black">StraightFacts</span> — A local-first Chrome extension that turns long-form YouTube video into structured, usable knowledge.
                         </li>
                         <li>
-                            <span className="font-bold text-black">MediaBongo</span> — A lean branding and marketing initiative focused on turning attention into structured value and dealflow.
+                            <span className="font-bold text-black">MediaBongo</span> — A lean approach to branding and marketing, focused on turning attention into structured value and dealflow.
                         </li>
                     </ul>
                 </section>
