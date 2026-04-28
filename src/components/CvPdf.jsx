@@ -14,18 +14,23 @@ export default function CvPdf() {
             <div className="max-w-[800px] mx-auto py-10 px-8 text-[13px]">
                 
                 {/* Header */}
-                <header className="mb-6 border-b border-gray-300 pb-5">
-                    <h1 className="text-3xl font-extrabold tracking-tight mb-1">Lauro Salvel</h1>
-                    <p className="text-[15px] text-gray-800 font-medium mb-2">Building tools and brands with precision.</p>
-                    
-                    <div className="flex gap-4 text-[12px] font-medium text-gray-600">
-                        <span>+41 79 915 89 49</span>
-                        <span>•</span>
-                        <span>lauro.salvel@gmail.com</span>
-                        <span>•</span>
-                        <span>linkedin.com/in/lauro-salvel-330532195</span>
-                        <span>•</span>
-                        <span>laurosalvel.ch</span>
+                <header className="mb-6 border-b border-gray-300 pb-5 flex items-start gap-6">
+                    <div className="w-[80px] h-[80px] rounded-full overflow-hidden shrink-0 border border-gray-200">
+                        <img src="/portrait.jpg" alt="Lauro Salvel" className="w-full h-full object-cover grayscale" />
+                    </div>
+                    <div className="flex flex-col">
+                        <h1 className="text-3xl font-extrabold tracking-tight mb-1">Lauro Salvel</h1>
+                        <p className="text-[15px] text-gray-800 font-medium mb-2">Building tools and brands with precision.</p>
+                        
+                        <div className="flex gap-4 text-[12px] font-medium text-gray-600">
+                            <span>+41 79 915 89 49</span>
+                            <span>•</span>
+                            <span>lauro.salvel@gmail.com</span>
+                            <span>•</span>
+                            <span>linkedin.com/in/lauro-salvel-330532195</span>
+                            <span>•</span>
+                            <span>laurosalvel.ch</span>
+                        </div>
                     </div>
                 </header>
 
