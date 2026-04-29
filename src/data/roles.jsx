@@ -44,7 +44,7 @@ const digtSections = [
                 <div className="w-full bg-[#E6E6E6]/60 p-4 rounded-lg">
                     <h3 className="text-[13px] font-semibold text-black mb-2">Overview</h3>
                     <p className="text-[#555] text-[13px] leading-relaxed">
-                        Responsible for advertising partnerships across four categories: Fashion, Sports, Health and Beauty. Building collaborations with international brands and executing performance-driven campaigns across Switzerland’s largest closed community platforms: Brands for Employees, Brands for Students, TWINT Super Deals and myAXA Deals.
+                        Built and scaled commercial partnerships across four categories: Fashion, Sports, Health and Beauty. Developing collaborations with international brands and executing performance-driven revenue initiatives across Switzerland’s largest closed community platforms: Brands for Employees, Brands for Students, TWINT Super Deals and myAXA Deals.
                     </p>
                 </div>
                 <div className="w-full bg-[#E6E6E6]/60 p-4 rounded-lg">
@@ -139,7 +139,7 @@ const velocitySections = [
                 <div className="w-full bg-[#E6E6E6]/60 p-4 rounded-lg">
                     <h3 className="text-[13px] font-semibold text-black mb-2">Overview</h3>
                     <p className="text-[#555] text-[13px] leading-relaxed">
-                        Responsible for managing all Social Media Channels and establish community growth opportunities through content strategy at three locations in Zurich and Basel.
+                        Scaled community growth strategies and commercial channels through a dedicated growth and acquisition strategy at three locations in Zurich and Basel.
                     </p>
                 </div>
             </div>
@@ -175,7 +175,7 @@ const velocitySections = [
                 <div className="w-full bg-[#E6E6E6]/60 p-4 rounded-lg">
                     <h3 className="text-[13px] font-semibold text-black mb-2">Experience</h3>
                     <p className="text-[#555] text-[13px] leading-relaxed">
-                        I joined Velocity during a period of personal transition, focusing mainly on content creation and creative execution. While the team was great and supportive, I quickly realized my goals were better aligned with a more challenging environment with commercial impact, which led me to pursue a new position at Digt AG.
+                        I joined Velocity during a period of personal transition, focusing mainly on content creation and execution. While the team was great and supportive, I quickly realized my goals were better aligned with a more challenging environment with commercial impact, which led me to pursue a new position at Digt AG.
                     </p>
                 </div>
                 <div className="w-full bg-[#E6E6E6]/60 p-4 rounded-lg">
@@ -237,7 +237,7 @@ const mybikeplanSections = [
                 <div className="w-full bg-[#E6E6E6]/60 p-4 rounded-lg">
                     <h3 className="text-[13px] font-semibold text-black mb-2">Overview</h3>
                     <p className="text-[#555] text-[13px] leading-relaxed">
-                        As Junior Marketing Manager, I was responsible for managing and developing the company’s main marketing channels, including Meta, Google and print media. The role combined strategic campaign planning with hands-on creative work, community growth and budget management across channels.
+                        As Junior Marketing Manager, I optimized and scaled the company’s main commercial channels, including Meta, Google and print media. The role combined strategic revenue-driving initiatives with hands-on execution, community growth and budget ownership across channels.
                     </p>
                 </div>
             </div>
@@ -280,8 +280,8 @@ const mybikeplanSections = [
                 <div className="w-full bg-[#E6E6E6]/60 p-4 rounded-lg">
                     <h3 className="text-[13px] font-semibold text-black mb-2">Key Learnings</h3>
                     <div className="text-[#555] text-[13px] leading-relaxed">
-                        Marketing through hands-on execution<br />
-                        End-to-end campaign planning and production<br />
+                        Growth through hands-on execution<br />
+                        End-to-end revenue-initiative planning and production<br />
                         Brand positioning in an early-stage startup<br />
                         Budgeting and prioritizing limited resources<br />
                         Funnel management and performance analytics
@@ -312,9 +312,9 @@ const mybikeplanSections = [
                 <div className="w-full bg-[#E6E6E6]/60 p-4 rounded-lg">
                     <h3 className="text-[13px] font-semibold text-black mb-2">Operating Principles</h3>
                     <div className="text-[#555] text-[13px] leading-relaxed">
-                        Creative concepts and campaign production<br />
-                        End-to-end campaign execution<br />
-                        Full ownership of marketing initiatives<br />
+                        Creative concepts and revenue-initiative production<br />
+                        End-to-end initiative execution<br />
+                        Full ownership of commercial initiatives<br />
                         Output-driven execution and rapid testing<br />
                         Persistence and strong work ethic
                     </div>

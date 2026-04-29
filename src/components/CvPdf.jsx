@@ -38,7 +38,7 @@ export default function CvPdf() {
                 <section className="mb-6">
                     <h2 className="text-sm font-bold uppercase tracking-widest text-gray-500 mb-2 border-b border-gray-200 pb-1">Professional Summary</h2>
                     <p className="text-gray-800 leading-relaxed text-justify">
-                        Marketing Manager with expertise in consultative selling, campaign strategy, and performance marketing. Experienced in managing advertising partnerships across closed community platforms, overseeing social media channels, and handling budget management. Proven ability to scale ecosystems, deliver incremental revenue, reduce CAC, and drive sustainable community growth through strategic campaign formats and hands-on creative work.
+                        Generalist operating at the intersection of business, marketing, and systems. Proven ability to build and scale commercial structures, generating CHF 1.4M+ in sales and CHF 4.9M+ in incremental revenue. Known for turning ideas into structured execution, combining analytical thinking with hands-on delivery. Currently focused on expanding into finance, fintech, and AI-driven environments.
                     </p>
                 </section>
 
@@ -46,15 +46,15 @@ export default function CvPdf() {
                 <section className="mb-6">
                     <h2 className="text-sm font-bold uppercase tracking-widest text-gray-500 mb-2 border-b border-gray-200 pb-1">Skills</h2>
                     <div className="flex flex-wrap gap-x-2 gap-y-1 text-gray-800 font-medium">
-                        <span>Acquisition</span> <span className="text-gray-400">|</span>
-                        <span>Consultative Selling</span> <span className="text-gray-400">|</span>
-                        <span>Presentations</span> <span className="text-gray-400">|</span>
-                        <span>Analytics</span> <span className="text-gray-400">|</span>
                         <span>Business Development</span> <span className="text-gray-400">|</span>
-                        <span>Content-Creation</span> <span className="text-gray-400">|</span>
+                        <span>Consultative Selling</span> <span className="text-gray-400">|</span>
+                        <span>Acquisition</span> <span className="text-gray-400">|</span>
+                        <span>Budget-Oversight</span> <span className="text-gray-400">|</span>
+                        <span>Analytics</span> <span className="text-gray-400">|</span>
                         <span>Campaign Strategy</span> <span className="text-gray-400">|</span>
                         <span>Marketing Formats</span> <span className="text-gray-400">|</span>
-                        <span>Budget-Oversight</span> <span className="text-gray-400">|</span>
+                        <span>Presentations</span> <span className="text-gray-400">|</span>
+                        <span>Content-Creation</span> <span className="text-gray-400">|</span>
                         <span>Brand Identity</span>
                     </div>
                 </section>
@@ -74,9 +74,9 @@ export default function CvPdf() {
                                 Digt AG | Fulltime, Hybrid, Zurich
                             </div>
                             <ul className="list-disc pl-5 text-gray-800 leading-relaxed flex flex-col gap-1">
-                                <li>Responsible for advertising partnerships across Fashion, Sports, Health and Beauty on closed community platforms.</li>
-                                <li>Generated CHF 1.4M+ in Sales and 4.9M+ Incremental Revenue.</li>
-                                <li>Conducted 300+ Consultations and acquired 100+ Clients including ABOUT YOU, HUGO BOSS AG, and Zalando.</li>
+                                <li>Built and scaled commercial partnerships across Fashion, Sports, Health and Beauty on closed community platforms.</li>
+                                <li>Generated CHF 1.4M+ in Sales and 4.9M+ Incremental Revenue through structured opportunity creation.</li>
+                                <li>Developed a consultative selling system, conducting 300+ consultations and acquiring 100+ Clients including ABOUT YOU, HUGO BOSS AG, and Zalando.</li>
                             </ul>
                         </div>
 
@@ -90,9 +90,9 @@ export default function CvPdf() {
                                 Velocity Switzerland | 60%, Hybrid, Zurich
                             </div>
                             <ul className="list-disc pl-5 text-gray-800 leading-relaxed flex flex-col gap-1">
-                                <li>Managed all Social Media Channels and established community growth opportunities at three locations.</li>
-                                <li>Achieved +20% Community-Growth and supported 2 major events.</li>
-                                <li>Established 3 Campaign Formats through dedicated content strategy.</li>
+                                <li>Scaled community growth strategies and commercial channels across three distinct locations.</li>
+                                <li>Generated +20% Community-Growth and supported 2 major revenue-driving events.</li>
+                                <li>Built 3 structured acquisition formats through a dedicated growth and acquisition strategy.</li>
                             </ul>
                         </div>
 
@@ -106,9 +106,9 @@ export default function CvPdf() {
                                 MyBikePlan AG | 80%, Zurich
                             </div>
                             <ul className="list-disc pl-5 text-gray-800 leading-relaxed flex flex-col gap-1">
-                                <li>Managed main marketing channels including Meta, Google, and print media with 100k Budget responsibility.</li>
-                                <li>Combined strategic campaign planning with hands-on creative work to drive +40% Community-Growth.</li>
-                                <li>Developed 10 Campaign Formats and reduced CAC by -20%.</li>
+                                <li>Optimized main commercial channels including Meta, Google, and print media with 100k budget ownership.</li>
+                                <li>Built strategic revenue-driving initiatives, blending analytical planning with execution to drive +40% Community-Growth.</li>
+                                <li>Scaled 10 systemized acquisition formats and channels, reducing CAC by -20%.</li>
                             </ul>
                         </div>
 
@@ -122,7 +122,7 @@ export default function CvPdf() {
                                 Freelancing & KOMMPAKT AG
                             </div>
                             <ul className="list-disc pl-5 text-gray-800 leading-relaxed flex flex-col gap-1">
-                                <li><strong>Graphic Design and Digital Content | Freelancing (Feb 2020 – Mar 2021)</strong>: Executed independent design contracts, delivering brand identities, digital assets, and marketing collateral.</li>
+                                <li><strong>Graphic Design and Digital Content | Freelancing (Feb 2020 – Mar 2021)</strong>: Executed independent design contracts, delivering brand identities, digital assets, and commercial collateral.</li>
                                 <li><strong>Graphic Designer | KOMMPAKT AG (Aug 2018 – Jan 2019)</strong>: Took ownership of larger agency accounts and cross-media campaigns.</li>
                                 <li><strong>Graphic Design EFZ Apprentice | KOMMPAKT AG (Aug 2014 – Aug 2018)</strong>: Completed a 4-year Swiss Federal VET apprenticeship covering layout, color theory, print production, and digital design.</li>
                             </ul>
