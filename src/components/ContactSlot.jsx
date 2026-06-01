@@ -67,7 +67,7 @@ export default function ContactSlot({ showProportional, isActive, onVisible, onH
         { label: 'lauro.salvel@gmail.com', icon: 'lucide:mail', href: 'mailto:lauro.salvel@gmail.com', w: 236 },
         { label: '+41 79 915 89 49', icon: 'lucide:phone', href: 'tel:+41799158949', w: 196 },
         { label: 'WhatsApp', icon: 'lucide:message-circle', href: 'https://wa.me/41799158949', w: 140 },
-        { label: 'LinkedIn', icon: 'lucide:linkedin', href: 'https://www.linkedin.com/in/lauro-salvel-330532195/', w: 136 }
+        { label: 'LinkedIn', icon: 'lucide:linkedin', href: 'https://www.linkedin.com/in/laurosalvel/', w: 136 }
     ];
 
     return (

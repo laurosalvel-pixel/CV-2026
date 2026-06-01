@@ -22,7 +22,7 @@ export default function Footer({ className = "" }) {
                 <a href="https://wa.me/41799158949" className="flex items-center gap-2 px-6 py-3.5 border border-[#EAEAEA] bg-white text-[#111] rounded-full text-[14px] font-bold hover:bg-[#E8F5E9] transition-colors w-full sm:w-auto justify-center group">
                     <Icon icon="lucide:message-circle" className="text-[#10B981] group-hover:scale-110 transition-transform"/> WhatsApp
                 </a>
-                <a href="https://www.linkedin.com/in/lauro-salvel-330532195/" target="_blank" rel="noreferrer" className="flex items-center gap-2 px-6 py-3.5 border border-[#EAEAEA] bg-white text-[#111] rounded-full text-[14px] font-bold hover:bg-[#E3F2FD] transition-colors w-full sm:w-auto justify-center group">
+                <a href="https://www.linkedin.com/in/laurosalvel/" target="_blank" rel="noreferrer" className="flex items-center gap-2 px-6 py-3.5 border border-[#EAEAEA] bg-white text-[#111] rounded-full text-[14px] font-bold hover:bg-[#E3F2FD] transition-colors w-full sm:w-auto justify-center group">
                     <Icon icon="lucide:linkedin" className="text-[#0077b5] group-hover:scale-110 transition-transform"/> LinkedIn
                 </a>
             </div>

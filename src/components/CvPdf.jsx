@@ -27,7 +27,7 @@ export default function CvPdf() {
                             <span>•</span>
                             <span>lauro.salvel@gmail.com</span>
                             <span>•</span>
-                            <span>linkedin.com/in/lauro-salvel-330532195</span>
+                            <span>linkedin.com/in/laurosalvel</span>
                             <span>•</span>
                             <span>laurosalvel.ch</span>
                         </div>
