@@ -22,14 +22,14 @@ export default function CvPdf() {
                         <h1 className="text-3xl font-extrabold tracking-tight mb-1">Lauro Salvel</h1>
                         <p className="text-[15px] text-gray-800 font-medium mb-2">Building tools and brands with precision.</p>
                         
-                        <div className="flex gap-4 text-[12px] font-medium text-gray-600">
-                            <span>+41 79 915 89 49</span>
+                        <div className="flex flex-wrap gap-x-4 gap-y-1 text-[12px] font-medium text-gray-600">
+                            <span className="whitespace-nowrap">+41 79 915 89 49</span>
                             <span>•</span>
-                            <span>lauro.salvel@gmail.com</span>
+                            <span className="whitespace-nowrap">lauro.salvel@gmail.com</span>
                             <span>•</span>
-                            <span>linkedin.com/in/laurosalvel</span>
-                            <span>•</span>
-                            <span>laurosalvel.ch</span>
+                            <span className="whitespace-nowrap">linkedin.com/in/laurosalvel</span>
+                            <div className="basis-full h-0" />
+                            <span className="whitespace-nowrap">laurosalvel.ch</span>
                         </div>
                     </div>
                 </header>
